@@ -1,0 +1,82 @@
+p {
+  color: blue;
+}
+.highlight {
+  background-color: yellow;
+}
+#special {
+  font-weight: bold;
+}
+div p:first-child {
+  color: red;
+}
+.block {
+  background-color: lightblue;
+}
+.block {
+  display: block;
+  background-color: lightblue;
+}
+.inline-block {
+  display: inline-block;
+  background-color: lightgreen;
+  padding: 10px;
+}
+.static {
+  background-color: lightcoral;
+  position: static;
+}
+.relative {
+  background-color: lightseagreen;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: lightgoldenrodyellow;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: lightpink;
+}
+body {
+  height: 300px;
+}
+nav,
+aside,
+article,
+footer {
+  border: 1px solid black;
+}
+nav {
+  padding: 10px;
+  margin: 0px 5px 10px;
+  position: absolute;
+  top: 0;
+  width: 95%;
+}
+aside {
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  display: inline-block;
+  width: 100px;
+}
+#main {
+  padding: 15px;
+  margin-right: 30px;
+  display: inline-block;
+  width: 100px;
+}
+.footer {
+  padding: 5px;
+  margin-top: 30px;
+  bottom: 0px;
+  width: 95%;
+  position: fixed;
+}

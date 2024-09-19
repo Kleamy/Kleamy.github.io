@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  padding: 45px;
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: purple;
+}
+h2 {
+  text-align: center;
+}
+
+.hej {
+  color: purple;
+  border-style: solid;
+}
+.pborder {
+  color: red;
+  border-style: solid;
+}
+.h1border {
+  color: orange;
+  border-style: solid;
+}
